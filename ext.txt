@@ -1,0 +1,8 @@
+<div class="col-auto m-1 p-0 px-3">
+                    <div class="row">
+                        <div class="col-auto d-flex align-items-center rounded bg-white border border-warning">
+                            <i class="fa fa-hourglass-half my-1 px-1 text-warning btn"></i>
+                            <h6 class="text pr-1">28th Jun 2020</h6>
+                        </div>
+                    </div>
+                </div>
