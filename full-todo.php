@@ -64,8 +64,9 @@ $todos = new Todo();
                 
                     <div class="col px-1 m-1 d-flex align-items-center">
                         <label class="input-title">
-                        <input class="form-check-input checkboxes" name="checkboxes[]" type="checkbox" value="<?php echo $todo['id']; ?>">
-                        <span><?php echo $todo["title"]; ?></span>
+                            <input class="form-check-input checkboxes" name="checkboxes[]" type="checkbox" value="<?php echo $todo['id']; ?>">
+                            <span><?php echo $todo["title"]; ?></span>
+
                         </label>
                     </div> 
                     
@@ -73,6 +74,7 @@ $todos = new Todo();
 
                         <!-- Todo Item Edit & Delete -->
                         <div class="todo-actions-inside">
+                            
                             <li>
                                 <a href="edit-todo.php?id=<?php echo $todo["id"]; ?>"><i class="fa fa-pencil text-info btn m-0 p-0" title="Edit todo"></i></a> 
                             </li>

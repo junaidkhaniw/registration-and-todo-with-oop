@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,14 +9,12 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <?php include './links/links.php'; ?> 
-    <?php include './css/style.php'; ?> 
+    <link rel="stylesheet" href="../templates/style.css">
 
     <title> Login </title>
   </head>
   <body>
   <?php
-
-session_start();
 
 if (isset($_SESSION["user_login"]) && $_SESSION["user_login"] == true) {
     $loggedin = true;

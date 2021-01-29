@@ -18,14 +18,12 @@ if (isset($_POST["register"])) {
 }
 
 else if (isset($_POST["login"])) {
+    // $id = $_POST["id"];
     $email = $_POST["email"];
     $password = $_POST["password"];
     $role = $_POST["role"];
 
     $users->loginUser($email, $password, $role);
-
-    
-    
 }
 
 ?>
